@@ -1,6 +1,11 @@
+import styles from 'styles/Home.module.css';
 const Footer1 = () => {
   return (
-    <div>My Component</div>
+    <footer className={styles.footer}>
+      <div>
+
+      </div>
+    </footer>
   )
 }
 export default Footer1

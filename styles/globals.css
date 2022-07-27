@@ -1,3 +1,7 @@
+:root {
+  --border-radius: 8px
+}
+
 html,
 body {
   padding: 0;
@@ -19,8 +23,18 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
   }
 }
+
+.btn {
+  padding: .5rem;
+  width: auto;
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+.w-100 {}
